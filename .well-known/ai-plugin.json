@@ -1,0 +1,18 @@
+{
+    "schema_version": "v1",
+    "name_for_human": "Author Copilot",
+    "name_for_model": "author_copilot",
+    "description_for_human": "A plugin that will help users generate eBooks",
+    "description_for_model": "A plugin that guides users through the process of generating eBooks",
+    "auth": {
+      "type": "none"
+    },
+    "api": {
+      "type": "openapi",
+      "url": "http://localhost:8000/openapi.json",
+      "is_user_authenticated": false
+    },
+    "logo_url": "http://localhost:8000/.well-known/logo.svg",
+    "contact_email": "mfavela@chapman.edu",
+    "legal_info_url": "https://example.com/legal"
+  }
